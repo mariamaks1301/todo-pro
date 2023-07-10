@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "email": "lana@mail.ru",
+      "password": "$2a$10$b9nW8OPCJM5F46EIO41TT.5mzjD.yiuDi9JVnQzY0CKW1yuSFnTky",
+      "login": "maria007",
+      "phone": "+996(389)65-83-68",
+      "gender": "female",
+      "categories": [],
+      "id": 1
+    },
+    {
+      "email": "maria@mail.ru",
+      "password": "$2a$10$gSJUqjWmB.B2Zgli6CK6k.R6PDEINE6g4zzhfkHzR4nRcyK.qBG8e",
+      "login": "maria",
+      "phone": "+996(984)78-94-67",
+      "gender": "female",
+      "categories": [],
+      "id": 2
+    },
+    {
+      "email": "kamila@mail.ru",
+      "password": "$2a$10$h1P65wEyR4AXfWnPVpbesuriU5vnsCqKDV7YMWqwX/y8hYc9JXkGi",
+      "login": "kamila007",
+      "phone": "+996(768)68-68-68",
+      "gender": "male",
+      "categories": [],
+      "id": 3
+    },
+    {
+      "email": "lola@mail.ru",
+      "password": "$2a$10$Bx66b5.MwZdROOYdDOaz7OF6R8FZLJNYZ2QlvjciRMvyE7SbzWR5C",
+      "login": "lola007",
+      "phone": "+996(987)86-86-75",
+      "gender": "female",
+      "categories": [],
+      "id": 4
+    },
+    {
+      "email": "ioanna@mail.ru",
+      "password": "$2a$10$6PAw7DUDA/QWmZPr0MjCheWU2Z.62/G71E8BFzPNlSZDkTKw6SWg2",
+      "login": "ioanna007",
+      "phone": "+996(868)69-47-07",
+      "gender": "female",
+      "categories": [
+        {
+          "categoryName": "Course",
+          "tasks": [],
+          "id": "53321110-41c5-4975-aeb0-1f19a4c37422",
+          "color": "pink"
+        },
+        {
+          "categoryName": "School",
+          "tasks": [],
+          "id": "2070fc19-4d51-4168-aaec-4712cfd7c354",
+          "color": "blue"
+        },
+        {
+          "categoryName": "Shopping",
+          "tasks": [],
+          "id": "3e27823f-21bd-4137-b01c-3306ca867234",
+          "color": "red"
+        },
+        {
+          "categoryName": "Todo Home",
+          "tasks": [],
+          "id": "97159892-d4a2-4b76-875a-180f68e37cf8",
+          "color": "brown"
+        },
+        {
+          "categoryName": "Shopping",
+          "tasks": [],
+          "id": "4d385af5-8277-4d3a-89a6-048774267348",
+          "color": "blue"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "email": "maria123@mail.ru",
+      "password": "$2a$10$4XqGYPRHf/T6ASK/QzMkmuLWJMNY7wmods5COe84d1Mey/5TeIhBy",
+      "login": "maria",
+      "phone": "+996(838)56-83-65",
+      "gender": "female",
+      "categories": [],
+      "id": 6
+    }
+  ]
+}

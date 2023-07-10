@@ -1,0 +1,101 @@
+.aside{
+    width: 200px;
+    padding: 52px 20px 0; 
+    background: lightblue;
+    height: 100vh;
+
+    &__all{
+        display: flex;
+        column-gap: 5px;
+        // align-items: center;
+        padding: 12px 9px; 
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        &:hover{
+            background: #fff;
+        }
+    }
+    
+
+    &__menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    &__item{
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+        padding: 12px 9px; 
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover{
+            background: #fff;
+        }
+    }
+
+    &__color{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        
+    }
+    &__col{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+
+    }
+
+    &__create{
+        margin-top: 25px;
+        column-gap: 15px;
+        // position: relative;
+
+    }
+    &__popup{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 45%;
+        background: #fff;
+        border: 1px solid grey;
+        padding: 20px 10px;
+        border-radius: 5px;
+        width: 230px;
+        flex-direction: column;
+        &-close{
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            cursor: pointer;
+        }
+        &-field{
+            height: 32px;
+            max-width: 200px;
+            width: 100%;
+            border: 1px solid lightslategrey;
+            border-radius: 5px;
+            padding: 0 12px;
+            outline: none;
+        }
+    }
+
+    &__colors{
+        display: flex;
+        justify-content: center;
+        padding: 14px 0;
+        column-gap: 8px;
+
+    
+    }
+
+
+    
+    
+    
+
+    
+}
