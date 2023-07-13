@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto+Serif&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +9,13 @@
     list-style-type: none;
     text-decoration: none;
     transition: .4s all ease-in-out;
+    font-family: 'Roboto Serif', serif;
+}
+
+.row{
+    display: flex;
+    // align-items: center;
+    gap: 20px;
 }
 
 .btn__add{
@@ -27,3 +38,9 @@
 
 @import "form";
 @import "aside";
+@import "header";
+@import "home";
+@import "content";
+
+
+

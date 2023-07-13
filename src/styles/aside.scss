@@ -1,7 +1,9 @@
 .aside{
-    width: 200px;
+    width: 250px;
     padding: 52px 20px 0; 
     background: lightblue;
+    border-right: 1px solid rgb(106, 132, 141);
+
     height: 100vh;
 
     &__all{
@@ -13,6 +15,9 @@
         cursor: pointer;
         margin-bottom: 20px;
         &:hover{
+            background: #fff;
+        }
+        &.active{
             background: #fff;
         }
     }
@@ -30,8 +35,27 @@
         padding: 12px 9px; 
         border-radius: 5px;
         cursor: pointer;
+        position: relative;
+        &.active{
+            background: #fff;
+        }
+        &-delete{
+            display: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 15px;
+            &:hover{
+                svg path{
+                    fill: black;
+                }
+            }
+        }
         &:hover{
             background: #fff;
+            .aside__item-delete{
+                display: inline;
+            }
         }
     }
 

@@ -1,0 +1,21 @@
+.header{
+    background: lightblue;
+    padding: 20px 100px;
+    border-bottom: 1px solid rgb(106, 132, 141);
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    &__title{
+        font-family: 'Merriweather', serif;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 20px;
+    }
+
+
+}

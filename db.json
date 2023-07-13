@@ -45,7 +45,13 @@
       "categories": [
         {
           "categoryName": "Course",
-          "tasks": [],
+          "tasks": [
+            {
+              "id": 9165264862865,
+              "taskTitle": "ReduxToolkit AsyncThunc",
+              "isComplete": false
+            }
+          ],
           "id": "53321110-41c5-4975-aeb0-1f19a4c37422",
           "color": "pink"
         },
@@ -62,16 +68,10 @@
           "color": "red"
         },
         {
-          "categoryName": "Todo Home",
+          "categoryName": "Learning",
           "tasks": [],
-          "id": "97159892-d4a2-4b76-875a-180f68e37cf8",
-          "color": "brown"
-        },
-        {
-          "categoryName": "Shopping",
-          "tasks": [],
-          "id": "4d385af5-8277-4d3a-89a6-048774267348",
-          "color": "blue"
+          "id": "abe98b49-4f36-4dea-aa84-9ba3d5b6f515",
+          "color": "#B6E6BD"
         }
       ],
       "id": 5
